@@ -1,0 +1,56 @@
+.container {
+  background-image: url(/images/sunset.jpg);
+  background-position: 0px -130px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 584px;
+  max-width: 1570px;
+  margin: 0 auto;
+}
+
+ul {
+  /* display: inline-block; */
+  list-style-type: none;
+  /* overflow: hidden; */
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-decoration: none;
+  padding: 12px 36px;
+  color: white;
+  background: grey;
+}
+
+h1, h4 {
+  color: white;
+}
+
+.container-title {
+  padding-top: 8px;
+  text-align: center;
+}
+
+.container-title h1 {
+  font-size: 72px;
+  font-weight: lighter;
+}
+
+.container-title h4 {
+  font-size: 36px;
+  font-weight: lighter;
+  margin-top: -32px;
+}
+
+.container-title a { 
+  color: white;
+  font-size: 24px;
+  font-weight: lighter;
+  text-decoration: none;
+}
