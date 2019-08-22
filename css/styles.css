@@ -1,3 +1,8 @@
+body {
+  max-width: 1570px;
+  margin: auto;
+}
+
 .container {
   background-image: url(/images/sunset.jpg);
   background-position: 0px -130px;
@@ -9,18 +14,18 @@
   margin: 0 auto;
 }
 
-ul {
+.nav-header {
   /* display: inline-block; */
   list-style-type: none;
+  padding: 0;
   /* overflow: hidden; */
-  
 }
 
-li {
+.nav-header li {
   float: left;
 }
 
-li a {
+.nav-header li a {
   display: block;
   text-decoration: none;
   padding: 12px 36px;
@@ -53,4 +58,67 @@ h1, h4 {
   font-size: 24px;
   font-weight: lighter;
   text-decoration: none;
+}
+
+.promos ul {
+  display: flex;
+  list-style-type: none;
+  margin-top: 2px;
+  padding: 0;
+}
+
+.promos img {
+    width: 393px;
+}
+
+footer {
+  display: inline;
+}
+
+.foot {
+  display: inline;
+  list-style-type: none;
+
+}
+
+.foot li {
+  float: left;
+  padding: 0 6px;
+  font-size: 13px;
+  border-right: 1px solid lightgrey;
+}
+
+.foot {
+  float: right;
+  margin-top: 12px;
+}
+
+.foot a {
+  font-size: 13px;
+}
+
+/* .wrapper .foot i {
+  
+} */
+
+.wrapper {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  width: 1080px;
+  margin: 0 auto;
+  color: #7c7c7c;
+}
+
+.wrapper p {
+  font-size: 13px;
+}
+
+.wrapper a {
+  text-decoration: none;
+  color: #08c;
+}
+
+.wrapper a:hover {
+  text-decoration: underline;
 }
