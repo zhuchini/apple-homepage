@@ -1,7 +1,14 @@
 linters:
+<<<<<<< HEAD
   rubocop:
     display_cop_names: true
   csslint:
   stylelint:
   eslint:
     config: './eslint.config'
+=======
+  csslint: {  }
+files:
+  ignore:
+    - 'bower_components/*'
+>>>>>>> 330112d8a6be9eedbe365566c13a0c021563b49e
