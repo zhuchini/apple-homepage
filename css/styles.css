@@ -1,4 +1,5 @@
 body {
+  font-family: 'Roboto', sans-serif;
   max-width: 1570px;
   margin: auto;
 }
@@ -20,22 +21,33 @@ body {
 }
 
 .nav-header li {
-  background: linear-gradient(black, grey);
+  background: linear-gradient(to bottom, rgba(102, 102, 102, 0.986) 50%,rgba(90, 90, 90, 0.986) 50%);
+  border-left: 1px solid #4f4f4f;
   display: block;
   float: left;
-  padding: 8px 36px;
+  font-size: 16px;
 }
 
 .nav-header li a {
   color: white;
   display: block;
+  font-weight: bold;
   text-decoration: none;
-  margin: 2px;
+  margin: 0 auto;
+  padding: 8px 36px;
+}
+
+.nav-header li a:hover {
+  background: rgba(0, 0, 0, 0.438);
 }
 
 .nav-header input {
-  width: 112px;
   border-radius: 8px;
+  border: 0.75px solid #3e3e3ede;
+  height: 20px;
+  padding-left: 22px;
+  width: 112px;
+  background: #4f4f4f00;
 }
 
 h1, h4 {
