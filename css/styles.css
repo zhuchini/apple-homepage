@@ -7,39 +7,52 @@ body {
   background-image: url(/images/sunset.jpg);
   background-position: 0px -130px;
   background-size: cover;
-  display: flex;
-  flex-direction: column;
   min-height: 584px;
   max-width: 1570px;
-  margin: 0 auto;
+  padding: 8px 0;
 }
 
 .nav-header {
-  /* display: inline-block; */
+  display: flex;
+  justify-content: center;
   list-style-type: none;
   padding: 0;
-  /* overflow: hidden; */
 }
 
 .nav-header li {
+  background: linear-gradient(black, grey);
+  display: block;
   float: left;
+  padding: 8px 36px;
 }
 
 .nav-header li a {
+  color: white;
   display: block;
   text-decoration: none;
-  padding: 12px 36px;
-  color: white;
-  background: grey;
+  margin: 2px;
+}
+
+.nav-header input {
+  width: 112px;
+  border-radius: 8px;
 }
 
 h1, h4 {
   color: white;
 }
 
+h6 {
+  display: flex;
+  align-items: center;
+}
+
 .container-title {
-  padding-top: 8px;
-  text-align: center;
+  align-items: center;
+  clear: both;
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
 }
 
 .container-title h1 {
@@ -51,6 +64,8 @@ h1, h4 {
   font-size: 36px;
   font-weight: lighter;
   margin-top: -32px;
+  margin-bottom: 12px;
+  text-align: center;
 }
 
 .container-title a { 
@@ -90,11 +105,14 @@ footer {
 
 .foot {
   float: right;
-  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+  padding: 0;
 }
 
 .foot a {
-  font-size: 13px;
+  font-size: 12px;
 }
 
 /* .wrapper .foot i {
@@ -105,13 +123,13 @@ footer {
   /* display: flex;
   align-items: center;
   justify-content: center; */
-  width: 1080px;
+  width: 1050px;
   margin: 0 auto;
   color: #7c7c7c;
 }
 
 .wrapper p {
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .wrapper a {
