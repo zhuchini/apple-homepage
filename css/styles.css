@@ -59,6 +59,10 @@ h6 {
   align-items: center;
 }
 
+h6 a:hover {
+  text-decoration: underline;
+}
+
 .container-title {
   align-items: center;
   clear: both;
