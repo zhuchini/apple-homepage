@@ -16,19 +16,14 @@ body {
 .container-title {
   align-items: center;
   clear: both;
+  color: white;
   display: flex;
   flex-direction: column;
   padding-top: 40px;
+  text-align: center;
 }
 
-.container-title h1 {
-  color: white;
-  font-size: 72px;
-  font-weight: lighter;
-}
-
-.container-title h4 {
-  color: white;
+h4 {
   font-size: 36px;
   font-weight: lighter;
   margin-bottom: 12px;
@@ -84,6 +79,24 @@ footer {
   padding: 0;
 }
 
+h6 {
+  align-items: center;
+  display: flex;
+}
+
+h6 a:hover {
+  text-decoration: underline;
+}
+
+.nav-header li a {
+  color: white;
+  display: block;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 8px 36px;
+  text-decoration: none;
+}
+
 .wrapper {
   color: #7c7c7c;
   margin: 0 auto;
@@ -103,15 +116,6 @@ footer {
   text-decoration: underline;
 }
 
-h6 {
-  align-items: center;
-  display: flex;
-}
-
-h6 a:hover {
-  text-decoration: underline;
-}
-
 .nav-header {
   display: flex;
   justify-content: center;
@@ -125,15 +129,6 @@ h6 a:hover {
   display: block;
   float: left;
   font-size: 16px;
-}
-
-.nav-header li a {
-  color: white;
-  display: block;
-  font-weight: bold;
-  margin: 0 auto;
-  padding: 8px 36px;
-  text-decoration: none;
 }
 
 .nav-header li a:hover {
