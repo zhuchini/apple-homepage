@@ -5,3 +5,8 @@ linters:
   stylelint:
   eslint:
     config: './eslint.config'
+<<<<<<< HEAD
+=======
+
+  
+>>>>>>> b9eb545de4c4e054325603866014120c280e2b43
