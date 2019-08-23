@@ -47,12 +47,12 @@ h6 a:hover {
 }
 
 .nav-header li a:hover {
-  background: rgba(0, 0, 0);
   background: rgba(0, 0, 0, 0.438);
+  background: rgb(0, 0, 0);
 }
 
 .nav-header input {
-  border: 0.75px solid #3e3e3ede;
+  border: solid #3e3e3ede;
   border-radius: 8px;
   width: 110px;
 }
