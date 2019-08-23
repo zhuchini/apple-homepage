@@ -5,3 +5,5 @@ linters:
   stylelint:
   eslint:
     config: './eslint.config'
+
+  
