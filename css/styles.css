@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-  background-image: url(/images/sunset.jpg);
+  background-image: url(../images/sunset.jpg);
   background-position: 0 -130px;
   background-size: cover;
   max-width: 1570px;
@@ -48,6 +48,10 @@ h4 {
   width: 110px;
 }
 
+.promos {
+  width: 100%;
+}
+
 .promos ul {
   display: flex;
   list-style-type: none;
@@ -56,7 +60,8 @@ h4 {
 }
 
 .promos img {
-  width: 393px;
+  margin-left: -3px;
+  width: 25%;
 }
 
 footer {
