@@ -1,0 +1,142 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+  max-width: 1570px;
+}
+
+.container {
+  background-image: url(../images/sunset.jpg);
+  background-position: 0 -130px;
+  background-size: cover;
+  max-width: 1570px;
+  min-height: 584px;
+  padding: 8px 0;
+}
+
+.container-title {
+  align-items: center;
+  clear: both;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 36px;
+  font-weight: lighter;
+  margin-bottom: 12px;
+  margin-top: -32px;
+  text-align: center;
+}
+
+.container-title a {
+  color: white;
+  font-size: 24px;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+.foot a {
+  font-size: 12px;
+}
+
+.nav-header input {
+  background-color: #65656536;
+  border-radius: 8px;
+  width: 110px;
+}
+
+.promos {
+  width: 100%;
+}
+
+.promos ul {
+  display: flex;
+  list-style-type: none;
+  margin-top: 2px;
+  padding: 0;
+}
+
+.promos img {
+  margin-left: -3px;
+  width: 25%;
+}
+
+footer {
+  display: inline;
+}
+
+.foot li {
+  border-right: 1px solid lightgrey;
+  float: left;
+  font-size: 13px;
+  padding: 0 6px;
+}
+
+.foot {
+  align-items: center;
+  display: inline-flex;
+  float: right;
+  list-style-type: none;
+  margin-top: 6px;
+  padding: 0;
+}
+
+h6 {
+  align-items: center;
+  display: flex;
+}
+
+h6 a:hover {
+  text-decoration: underline;
+}
+
+.nav-header li a {
+  color: white;
+  display: block;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 8px 36px;
+  text-decoration: none;
+}
+
+.wrapper {
+  color: #7c7c7c;
+  margin: 0 auto;
+  width: 1110px;
+}
+
+.wrapper p {
+  font-size: 12px;
+}
+
+.wrapper a {
+  color: #08c;
+  text-decoration: none;
+}
+
+.wrapper a:hover {
+  text-decoration: underline;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-header li {
+  background: linear-gradient(to bottom, rgba(102, 102, 102, 0.986) 50%, rgba(90, 90, 90, 0.986) 50%);
+  border-left: 1px solid #4f4f4f;
+  display: block;
+  float: left;
+  font-size: 16px;
+}
+
+.nav-header li a:hover {
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.438);
+}
